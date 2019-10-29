@@ -1,5 +1,5 @@
 provider "azurerm" {
-  version = "=1.5.0"
+  version = "=1.34.0"
 }
 
 provider "kubernetes" {
