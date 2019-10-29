@@ -1,5 +1,10 @@
 provider "azurerm" {
   version = "=1.34.0"
+  subscription_id = "26ebcb66-f4c7-4d02-b57c-2f48e919cc96"
+  client_id       = "4002f287-4f19-45d0-b572-28669515529b"
+  #client_secret   = "${var.client_secret}"
+  client_secret   = "81a5b777-a07a-47ce-b8b8-40a41fd965e3"
+  tenant_id       = "5819e6cf-b055-4e49-a4f4-a671766a194a"
 }
 
 provider "kubernetes" {
